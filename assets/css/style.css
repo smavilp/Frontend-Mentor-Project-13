@@ -145,19 +145,22 @@ h2{
   color: var(--LightGray) 
 }
 
-button{
+.subscription-section a{
   border: none;
   background-color: var(--BrightYellow);
   height: 3rem;
+  padding: 0.85rem;
   margin-top: .7rem;
   border-radius: 5px;
   color: var(--LightGray);
   font-family: 'Karla', sans-serif;
   font-size: 1rem;
   font-weight: 700;
+  text-decoration: none;
+  text-align: center;
 }
 
-button:hover{
+.subscription-section a:hover{
   cursor: pointer;
   background-color: hsla(71, 73%, 54%, 0.66);
 }
@@ -183,7 +186,11 @@ button:hover{
   margin-bottom: 1.35rem;
 }
 
-.why-us-section span{
+.why-us-section ul{
+  list-style:none;
+}
+
+.why-us-section li{
   color:var(--LightGray);
   font-size: .85rem;
   margin-bottom: .3rem;
