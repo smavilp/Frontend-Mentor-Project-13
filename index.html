@@ -3,54 +3,51 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="author" content="Sebastian Martinez Arango" />
+  <meta name="author" content="Sebastian Martinez Arango">
+  <meta name="description" content="This is a solution to the [Single price grid component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc).">
   <link rel="stylesheet" href="./assets/css/style.css">
-  
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
   <title>Frontend Mentor | Single Price Grid Component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-
 </head>
 <body>
-  <main>
-    <section class="join-section">
-      <h1>Join our community</h1>
-      <span>30-day, hassle-free money back guarantee</span>
-      <p> 
+  <main class="main">
+    <section class="main__section section-community">
+      <h1 class="section-community__h1">Join our community</h1>
+      <h2 class="section-community__h2">30-day, hassle-free money back guarantee</h2>
+      <p class="section-community__p"> 
         Gain access to our full library of tutorials along with expert code reviews. 
         Perfect for any developers who are serious about honing their skills.
       </p>
     </section>
-    <section class="subscription-section">
-      <h2>Monthly Subscription</h2>
-        <div>
-          <span class="price-span">&dollar;29</span>
-          <span class="month-span">per month</span>
+    <section class="main__section section-subs">
+      <h2 class="section-subs__h2">Monthly Subscription</h2>
+        <div class="section-subs__div price-div">
+          <span class="price-div__span--price">&dollar;29</span>
+          <span class="price-div__span--text">per month</span>
         </div>
-      <span>Full access for less than &dollar;1 a day</span>
-      <br>
-      <a href="#">Sing Up</a>
+      <span class="section-subs__span">Full access for less than &dollar;1 a day</span>
+      <a class="section-subs__a" href="#">Sing Up</a>
     </section>
-    <section class="why-us-section">
-      <h2>Why Us</h2>
-      <ul>
-        <li>Tutorials by industry experts</li>
-        <li>Peer &amp; expert code review</li>
-        <li>Coding exercises</li>
-        <li>Access to our GitHub repos</li>
-        <li>Community forum</li>
-        <li>Flashcard decks</li>
-        <li>New videos every week</li>
+    <section class="main__section why-us-section">
+      <h2 class="why-us-section__h2">Why Us</h2>
+      <ul class="why-us-section__ul">
+        <li class="why-us-section__li">Tutorials by industry experts</li>
+        <li class="why-us-section__li">Peer &amp; expert code review</li>
+        <li class="why-us-section__li">Coding exercises</li>
+        <li class="why-us-section__li">Access to our GitHub repos</li>
+        <li class="why-us-section__li">Community forum</li>
+        <li class="why-us-section__li">Flashcard decks</li>
+        <li class="why-us-section__li">New videos every week</li>
       </ul>
     </section>
   </main>
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="https://www.frontendmentor.io/profile/smavilp">Sebastián Martínez Arango</a>.
-    </p>
+  <footer class="footer">
+    <span class="footer__span">
+      Challenge by <a class="footer__a" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    </span>
+    <span class="footer__span">
+      Coded by <a class="footer__a" href="https://www.frontendmentor.io/profile/smavilp">Sebastián Martínez Arango</a>.
+    </span>
   </footer>
 </body>
 </html>

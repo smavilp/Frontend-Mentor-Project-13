@@ -1,27 +1,27 @@
 /* Imports */
 
-@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap'); */
 
 /* Variables */
 
-:root{
+/* :root{
 --Cyan: hsl(179, 62%, 43%);
 --BrightYellow: hsl(71, 73%, 54%);
 --LightGray: hsl(204, 43%, 93%);
 --GrayishBlue: hsl(218, 22%, 67%);
-}
+} */
 
 /* Resets */
 
-*{
+/* *{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
+} */
 
 /* Styles */
 
-body{
+/* body{
   min-height: 100vh;
   background-color: var(--LightGray);
   font-family: 'Karla', sans-serif;
@@ -209,4 +209,4 @@ footer a{
 
 footer a:hover{
   color:  hsla(179, 61%, 47%, 0.866);
-}
+} */
